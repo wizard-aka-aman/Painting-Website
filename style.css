@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Courgette', cursive;*/
+.email{
+    font-family: 'Roboto', sans-serif; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding: 0 65px;
+    color: white;
+    background: #223053;
+}
+.email i{
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 7px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 70px;
+    width: 100%;
+    height: 70px;
+}
+.logo{
+    font-size: 2em;
+    font-weight: bold;
+    flex-basis: 10%;
+    font-family: 'Roboto', sans-serif; 
+}
+.logo:hover{
+    color: white;
+    background: #223053;
+    border-radius: 50% /90% 15%;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+.memu{
+    flex-basis: 70%;
+    text-align: right;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 0 15px;
+    color: grey;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.menu a:nth-child(1){
+    color: black;
+}
+.menu a:hover{
+    color: white;
+    background: #223053;
+    border-radius: 50% /90% 15%;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background:url(img/sofa.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 7em;
+    box-sizing: border-box;
+}
+header h1{
+    font-size: 4em;
+    letter-spacing: 4px;
+    font-family: 'Courgette', cursive;
+    margin-bottom: 10px;
+    color: white;
+}
+header button{
+    color: white;
+    background: #001855;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-radius: 50% /90% 15%;
+}
+#shop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+#shop>div{
+    flex-basis: 20%;
+    text-align: center;
+}
+#shop>div img{
+    width: 50%;
+}
+#shop p{
+    font-size: 20px;
+    color: rgb(56, 56, 56);
+    margin-top: 10px;
+}
+#paint{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.027);
+}
+#paint>div{
+    flex-basis: 30%;
+    text-align: center;
+}
+#paint>div img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 9px;
+    box-shadow: 2px 5px 19px rgb(0, 0, 0);
+}
+#paint p{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: black;
+    margin-top:10px;
+    font-family: sans-serif;
+}
+#color{
+    padding: 50px 100px;
+    color: white;
+    background: #192a56;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+#color h1{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+.color-row{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.color-left-col{
+    flex-basis: 30%;
+    text-align: center;
+}
+.color-left-col img{
+    width: 70%;
+    background: white;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 8px;    
+}
+.color-right-col{
+    flex-basis: 60%;
+}
+.color-right-col h2{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.color-right-col p{
+    font-size: 20px;
+    margin: 20px  0px;
+    font-family: 'Roboto', sans-serif; 
+}
+.color-right-col button{
+    color: black;
+    background:white;
+    letter-spacing: 5px;
+    margin-top:10px;
+    border: none;
+    border-radius: 50% /90% 15%;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+}
+#wave{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+#contact{
+    width: 100%;
+    padding: 50px 100px;
+}
+#contact h1{
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    /* font-family: cursive; */
+    margin-bottom: 1em;
+}
+#contact span{
+    color: #192a56;
+}
+#contact div{
+display: flex;
+justify-content: center;
+}
+footer{
+    font-family: cursive;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    font-size: 2em;
+    background: #001855;
+    color: white;
+
+}
+/*particals.js  search on goggle github*/
+#particles-js{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+@media only screen and (max-width:770px){
+        #home{
+            display: none;
+        }
+        .logo{
+            flex-basis: 25%;
+            font-size: 20px;
+            position: absolute;
+            left: 0;
+        }
+        .logo:hover{
+            font-size: 20px;
+            padding: 5px 7.5px;
+        }
+        .menu{
+            display: flex;
+            flex-flow: row;
+            font-size: small;
+            flex-basis: 50%;
+            margin-left: 30px;
+        }
+        .menu a{
+            padding: 5px;
+            margin: 0;
+        }
+        #particles-js{
+            width: 100%;
+            height: 100%;
+        }
+        header button{
+            margin-top: 25px;
+        }
+        #shop{
+            width: 100%;
+            flex-basis: 100%;
+            padding: 5px 5px;
+            margin-top: 50px;
+        }
+        #paint{
+            flex-basis: 100%;
+            width: 100%;
+            padding: 0 15px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        #paint p{
+            font-size: small;
+        }
+        #color{
+            height: 75vh;
+            padding: 0;
+        }
+        #color h1{
+            margin: 0;
+        }
+        .color-left-col{
+                flex-basis: 50%;
+                margin-top: 10px;
+        }
+        .color-left-col img{
+            margin-top: 20px;
+        }
+        .color-right-col p {
+                font-size: small;
+        }
+        .color-right-col{
+                flex-basis: 50%;
+        }
+        .color-row{
+            display: flex;
+            flex-basis: 50%;
+        }
+        .color-right-col button{
+            font-size: small;
+            margin-top: -1px;
+            padding: 9px;
+        }
+        footer{
+            padding: 0;
+            height: 90px;
+        }
+        .p1{
+            flex-basis: 50%;
+            text-align: center;
+        }
+        .p2{
+            flex-basis: 50%;
+            text-align: right;
+        }
+}

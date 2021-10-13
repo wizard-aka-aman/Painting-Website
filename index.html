@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painting Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <!-- smooth scrool -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <!-- for fade text -->
+    <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+</head>
+
+<body>
+    <div class="email" id="home">
+        <p>
+            Phone : 3564940380 | E-mail : official.paint@gmail.com
+        </p>
+        <p>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-twitter "></i>
+        </p>
+    </div>
+    <nav>
+        <div class="logo">
+            <i class="fas fa-paint-brush">PAINT</i>
+        </div>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#color">Paint</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header>
+        <div id="particles-js"></div>
+        <h1 class="lax lax_preset_fadeInOut:188.5:0">Best Paints<br>And Colours</h1>
+        <button class="lax lax_preset_fadeInOut:188.5:0">Shop Now</button>
+    </header>
+
+    <section id="shop" class="lax lax_preset_scaleInOut:188.5:0.6">
+        <div>
+            <img src="img/p1.png">
+            <p>Self Priming</p>
+        </div>
+        <div>
+            <img src="img/p2.png">
+            <p>Superior Coverage</p>
+        </div>
+        <div>
+            <img src="img/p1.png">
+            <p>Highly Washable</p>
+        </div>
+        <div>
+            <img src="img/p3.png">
+            <p>Extremely Durable</p>
+        </div>
+    </section>
+
+    <section id="paint" class="lax lax_preset_hueRotate:754:360">
+        <div data-tilt>
+            <img src="img/img1.jpg">
+            <p>Colour palletes</p>
+        </div>
+        <div data-tilt>
+            <img src="img/img2.jpg">
+            <p>Best Selling</p>
+        </div>
+        <div data-tilt>
+            <img src="img/img3.jpg">
+            <p>Top Colours</p>
+        </div>
+    </section>
+
+
+    <section id="color">
+        <h1>Featured Product</h1>
+        <div class="color-row">
+            <div class="color-left-col lax lax_preset_flipX:754:360">
+                <img src="img/p5.jpg">
+            </div>
+            <div class="color-right-col lax lax_preset_fadeInOut:188.5:0">
+                <h2>Best Quality Panits</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem dicta velit distinctio doloremque,
+                    ipsum libero. Voluptatibus esse iure est.</p>
+                <button>Shop Now</button>
+            </div>
+
+
+            <div class="color-left-col lax lax_preset_flipY:754:360" style="margin-top: 20px;">
+                <img src="img/p6.jpg">
+            </div>
+            <div class="color-right-col lax lax_preset_fadeInOut:188.5:0" style="margin-top: 20px;">
+                <h2>Quality Brush</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem dicta velit distinctio doloremque,
+                    ipsum libero. Voluptatibus esse iure est.</p>
+                <button>Shop Now</button>
+            </div>
+        </div>
+
+        <svg id="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="white" fill-opacity="1"
+                d="M0,288L40,282.7C80,277,160,267,240,250.7C320,235,400,213,480,224C560,235,640,277,720,266.7C800,256,880,192,960,186.7C1040,181,1120,235,1200,218.7C1280,203,1360,117,1400,74.7L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+
+
+    <section id="contact">
+        <h1>Contact <span> Us</span></h1>
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57694.266489108064!2d74.59671664351!3d25.341416410160875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3968c2368c070a55%3A0xc92f70a42dcb5294!2sBhilwara%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1633710785298!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+
+    <footer>
+        <p class="p1">
+            &hearts; Developed By Wizard &hearts;
+        </p>
+        <p class="p2">
+            Time For Exit &Gg;
+        </p>
+
+    </footer>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 2000
+        });
+    </script>
+    <script>
+        window.onload = function () {
+          lax.init()
+      
+          // Add a driver that we use to control our animations
+          lax.addDriver('scrollY', function () {
+            return window.scrollY
+          })
+      
+          // Add animation bindings to elements
+          lax.addElements('.selector', {
+            scrollY: {
+              translateX: [
+                ["elInY", "elCenterY", "elOutY"],
+                [0, 'screenWidth/2', 'screenWidth'],
+              ]
+            }
+          })
+        }
+      </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- for partical on header -->
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+</body>
+
+</html>
